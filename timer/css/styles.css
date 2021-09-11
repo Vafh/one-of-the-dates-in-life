@@ -56,7 +56,7 @@ html {
   }
 }
 .boxxx {
-  margin-bottom: 250px;
+  margin-bottom: 400px;
   margin-top: 30px;
   display: flex;
   justify-content: center;
@@ -64,5 +64,6 @@ html {
 @media (min-width: 700px) {
   .boxxx {
     margin-top: 100px;
+    margin-bottom: 150px;
   }
 } ;
