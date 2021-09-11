@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Marck Script", cursive;
+}
+html {
+  background: linear-gradient(
+    0deg,
+    rgba(150, 78, 50, 1) 0%,
+    rgba(250, 201, 63, 0.8491771708683473) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}
+
+.img {
+  width: 150px;
+  margin-bottom: 50px;
+  box-shadow: 0px 0px 19px 21px rgba(34, 60, 80, 0.2);
+}
+@media (min-width: 700px) {
+  .img {
+    width: 200px;
+  }
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+@media (min-width: 700px) {
+  .timer {
+    margin-top: 100px;
+  }
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  padding-right: 20px;
+}
+
+.text {
+  margin-left: 10px;
+  margin-right: 50px;
+  margin-top: 10px;
+  font-size: 10pt;
+}
+@media (min-width: 700px) {
+  .text {
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 15pt;
+  }
+}
+.boxxx {
+  margin-bottom: 130px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+@media (min-width: 700px) {
+  .boxxx {
+    margin-top: 100px;
+  }
+} ;
