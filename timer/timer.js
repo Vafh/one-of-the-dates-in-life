@@ -13,7 +13,7 @@ class CountdownTimer {
     return { days, hours, mins, secs };
   }
  
-  getDiff =()=> this.targetDate - Date.now();
+  getDiff =()=> Date.now() - this.targetDate;
   pad(value) {
           return String(value).padStart(2, '0');
       }
@@ -46,7 +46,7 @@ class CountdownTimer {
  
 const newTimer = new CountdownTimer({
   selector: "#timer-1",
-  targetDate: new Date(2021,8,18,16,27,13),
+  targetDate: new Date("Sep 5, 2021"),
 });
  
 newTimer.renderData();
